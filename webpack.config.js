@@ -12,7 +12,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
     alias: {
-      Components: path.resolve(__dirname, 'src/Components'),
+      components: path.resolve(__dirname, 'src/components'),
       styles: path.resolve(__dirname, 'src/styles')
     },
   },
@@ -31,7 +31,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/static/index.html',
     }),
-    new BundleAnalyzerPlugin(),
     new CleanWebpackPlugin(),
   ],
 }
