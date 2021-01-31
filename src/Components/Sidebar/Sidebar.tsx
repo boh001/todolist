@@ -1,5 +1,5 @@
 import React from 'react'
-import { SidbarFrame, SidbarHeader } from './Sidbar.style'
+import { SidbarFrame, SidbarHeader } from './Sidebar.style'
 
 const SideBar = () => (
   <SidbarFrame>

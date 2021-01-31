@@ -9,15 +9,17 @@
     "baseUrl": ".",
     "paths": {
       "components/*": ["src/components/*"],
-      "styles/*": ["./src/styles/*"]
+      "styles/*": ["src/styles/*"],
+      "pages/*": ["src/pages/*"]
     },
     "jsx": "react",
     "declaration": true,
     "declarationDir": "./types",
-    "typeRoots": ["./types", "./node_modules/@types"],
+    "typeRoots": ["./types/*", "./node_modules/@types"],
   },
   "exclude": [
     "node_modules",
-    "webpack.config.js"
+    "webpack.config.js",
+    "jest.config.js"
   ],
 }
